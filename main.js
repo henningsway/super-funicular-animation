@@ -118,7 +118,7 @@ function draw() {
         rotateVector(addVectors(
           square.bottom[i],
           {x: -centerPoint.x, y: -centerPoint.y}
-        ), t),
+        ), -t),
         centerPoint
       )
     ellipse(square.bottom[i].x, square.bottom[i].y, smallRadius/2)
